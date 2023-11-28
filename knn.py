@@ -7,6 +7,9 @@ data = {
 }
 x_predict = (0,0) # features to be predicted
 
+# TODO: try it with n labeled data
+# TODO: if all the x_predict is in the middle of neighbours, it shouldn't decide 
+
 # # plot the data
 # for k,v in data.items():
 #     for x1, x2 in v:
@@ -21,7 +24,6 @@ for k,v in data.items():
    for X_ in v:
       X.append(X_)
       y.append(k)
-
 # print(X, y)    
 
 k = 3 # k of kNN
@@ -32,7 +34,7 @@ for i, x_i in enumerate(X):
 # print(distances)
 
 distances_ordered = sorted(distances, key=lambda x: x[0]) # increasing by distance
-print(distances_ordered)
+# print(distances_ordered)
 
 closest_k_nearest_neighbour_indeces = []
 for i in range(k):
