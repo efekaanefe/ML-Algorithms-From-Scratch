@@ -31,8 +31,8 @@ for i, x_i in enumerate(X):
     distances.append((distance, i))
 # print(distances)
 
-distances_ordered = sorted(distances, key=lambda x: x[0], reverse=True) # descending by distance
-# print(distances_ordered)
+distances_ordered = sorted(distances, key=lambda x: x[0]) # increasing by distance
+print(distances_ordered)
 
 closest_k_nearest_neighbour_indeces = []
 for i in range(k):
@@ -47,3 +47,9 @@ print(closest_k_nearest_neighbours)
 
 predicted_label = max(set(closest_k_nearest_neighbours), key=closest_k_nearest_neighbours.count)
 print(f"I predict ({x_predict[0]}, {x_predict[1]}) as: {predicted_label}")
+
+for k,v in data.items():
+    for x1, x2 in v:
+        plt.scatter(x1,x2,c=k)
+plt.scatter(x_predict[0],x_predict[1], c=predicted_label, marker="x")
+plt.show()
