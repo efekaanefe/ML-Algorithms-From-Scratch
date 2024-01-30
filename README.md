@@ -1,2 +1,14 @@
 # Machine-Learning-Algorithms-From-Scratch
-Linear regression, KNN, SVM, etc.
+Implementation of various machine learning algorithms using numpy only.
+
+TODO:
+- [x] KNN
+- [ ] Linear regression
+- [ ] SVM
+- [ ] LDA
+- [ ] Decision Tree
+- [ ] Random Forest
+- [ ] ANN
+- [ ] CNN
+- [ ] RNN
+- [ ] Auto Encoder
