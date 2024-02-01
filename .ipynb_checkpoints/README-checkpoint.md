@@ -4,7 +4,7 @@ Implementation of various machine learning algorithms using numpy only.
 TODO:
 - [x] KNN
 - [x] Linear regression
-- [ ] Logistic regression
+- [x] Logistic regression
 - [ ] SVM
 - [ ] LDA
 - [ ] Decision Tree
