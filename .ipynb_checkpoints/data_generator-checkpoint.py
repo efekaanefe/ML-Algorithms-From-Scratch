@@ -2,7 +2,7 @@ from sklearn.datasets import make_classification, make_regression
 
 
 class DataGenerator:
-    def __init__(self, num_samples, num_features, num_classes):
+    def __init__(self, num_samples, num_features, num_classes=None):
         self.num_samples = num_samples
         self.num_features = num_features
         self.num_classes = num_classes
@@ -26,7 +26,7 @@ class DataGenerator:
         
 
 if __name__ == "__main__":
-    num_samples = 50,
+    num_samples = 50
     num_features = 3
     num_classes = 2
     gen = DataGenerator(num_samples, num_features, num_classes)
