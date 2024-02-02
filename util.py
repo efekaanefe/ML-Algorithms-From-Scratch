@@ -29,12 +29,12 @@ class DataPlotter:
     def __init__(self):
         pass
 
-    def plot_data(self, X, y, type = "classification"):
+    def plot_data(self, X, y, type = "classification", num_classes = 3): 
         if type == "classification":
             # works for num_features = 2, and num_class < 3 
             plt.figure(figsize=(8, 6))
-            colors = ['blue', 'red', 'green']
-            for i in range(3):
+            colors = ['blue', 'red', 'green', 'orange', 'purple', 'brown', 'pink', 'gray', 'cyan']
+            for i in range(num_classes):
                 plt.scatter(X[y == i][:, 0], X[y == i][:, 1], color=colors[i], label=f'Class {i}')
             plt.xlabel('Feature 1')
             plt.ylabel('Feature 2')
