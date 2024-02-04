@@ -5,7 +5,7 @@ TODO:
 - [x] KNN
 - [x] Linear regression
 - [x] Logistic regression
-- [ ] Naive Bayes
+- [x] Naive Bayes
 - [ ] SVM
 - [ ] LDA
 - [ ] Decision Tree
