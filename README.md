@@ -7,6 +7,7 @@ TODO:
 - [x] Logistic regression
 - [x] Naive Bayes
 - [x] SVM
+- [ ] Perceptron
 - [ ] LDA
 - [ ] Decision Tree
 - [ ] Random Forest
