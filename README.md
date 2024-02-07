@@ -6,7 +6,7 @@ TODO:
 - [x] Linear regression
 - [x] Logistic regression
 - [x] Naive Bayes
-- [ ] SVM
+- [x] SVM
 - [ ] LDA
 - [ ] Decision Tree
 - [ ] Random Forest
