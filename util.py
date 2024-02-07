@@ -1,5 +1,6 @@
 from sklearn.datasets import make_classification, make_regression
 import matplotlib.pyplot as plt
+import numpy as np
 
 class DataGenerator:
     def __init__(self, num_samples, num_features, num_classes=None):
@@ -24,6 +25,18 @@ class DataGenerator:
  
         return X, y
         
+    def get_radial_data(self, num_samples_per_circle = 100, num_circles = 2, radius_range = (5, 8), noise=0.1):
+        X = []
+        y = []
+        for i in range(num_circles):
+            radius = np.random.uniform(*radius_range)
+            theta = np.linspace(0, 2 * np.pi, num_samples_per_circle)
+            x_circle = radius * np.cos(theta) + np.random.normal(0, noise, num_samples_per_circle)
+            y_circle = radius * np.sin(theta) + np.random.normal(0, noise, num_samples_per_circle)
+            X.extend(np.column_stack((x_circle, y_circle)))
+            y.extend([i] * num_samples_per_circle)
+        return np.array(X), np.array(y)
+
 
 class DataPlotter:
     def __init__(self):
