@@ -15,3 +15,4 @@ TODO:
 - [ ] CNN
 - [ ] RNN
 - [ ] Auto Encoder
+- [ ] Optimizers (sgd, adam, etc.)
