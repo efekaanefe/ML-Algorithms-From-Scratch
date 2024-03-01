@@ -16,3 +16,7 @@ TODO:
 - [ ] RNN
 - [ ] Auto Encoder
 - [ ] Optimizers (sgd, adam, etc.)
+
+- [ ] PINN
+- [ ] GNN
+- [ ] Q-learning/DQN
