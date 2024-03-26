@@ -8,7 +8,7 @@ TODO:
 - [x] Naive Bayes
 - [x] SVM
 - [x] Perceptron
-- [ ] LDA
+- [x] LDA
 - [ ] Decision Tree
 - [ ] Random Forest
 - [ ] ANN

@@ -8,10 +8,15 @@ TODO:
 - [x] Naive Bayes
 - [x] SVM
 - [x] Perceptron
-- [ ] LDA
+- [x] LDA
 - [ ] Decision Tree
 - [ ] Random Forest
 - [ ] ANN
 - [ ] CNN
 - [ ] RNN
 - [ ] Auto Encoder
+- [ ] Optimizers (sgd, adam, etc.)
+
+- [ ] PINN
+- [ ] GNN
+- [ ] Q-learning/DQN
