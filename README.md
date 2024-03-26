@@ -9,7 +9,7 @@ TODO:
 - [x] SVM
 - [x] Perceptron
 - [x] LDA
-- [ ] PCA
+- [x] PCA
 - [ ] Decision Tree
 - [ ] Random Forest
 - [ ] ANN
