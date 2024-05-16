@@ -12,7 +12,9 @@ TODO:
 - [x] PCA
 - [x] Decision Tree
 - [ ] Random Forest
-- [ ] k-means
+- [ ] k-Means
+- [ ] Mean Shift
+
 - [ ] DBSCAN
 - [ ] ANN
 - [ ] CNN
