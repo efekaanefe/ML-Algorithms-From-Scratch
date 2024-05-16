@@ -67,7 +67,7 @@ class DataPlotter:
             plt.show()
             
 
-def plot_decision_boundary_numerically(predict_func, X, y, title = "decision boundary"):
+def plot_decision_boundary_numerically(predict_func, X, y, title = "decision boundary", is_plotting_data = True):
     # Create meshgrid for visualization
     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
     y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
@@ -80,11 +80,13 @@ def plot_decision_boundary_numerically(predict_func, X, y, title = "decision bou
     
     # Plot decision boundary
     plt.contourf(xx, yy, Z, alpha=0.2)
-    plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k')
+    if is_plotting_data:
+        plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k')
     plt.title(title)
     plt.xlabel('Feature 1')
     plt.ylabel('Feature 2')
     plt.show()
+    
 
 if __name__ == "__main__":
     ## hyper parameters
