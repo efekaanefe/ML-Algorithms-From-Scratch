@@ -10,7 +10,7 @@ TODO:
 - [x] Perceptron
 - [x] LDA
 - [x] PCA
-- [ ] Decision Tree
+- [x] Decision Tree
 - [ ] Random Forest
 - [ ] k-means
 - [ ] DBSCAN
